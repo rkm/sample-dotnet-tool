@@ -1,12 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net7.0</TargetFramework>
-    <RootNamespace>sample_dotnet_tool</RootNamespace>
+    <Authors>rkm</Authors>
+    <Description>https://github.com/rkm/sample-dotnet-tool</Description>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <OutputType>Exe</OutputType>
     <PackAsTool>true</PackAsTool>
-    <ToolCommandName>sample-tool</ToolCommandName>
+    <PackageId>Rkm.SampleDotnetTool</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageOutputPath>./nupkg</PackageOutputPath>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/rkm/sample-dotnet-tool</RepositoryUrl>
+    <RootNamespace>sample_dotnet_tool</RootNamespace>
+    <TargetFramework>net7.0</TargetFramework>
+    <ToolCommandName>sample-tool</ToolCommandName>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 </Project>
